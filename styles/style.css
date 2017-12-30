@@ -1,0 +1,90 @@
+* {
+	box-sizing: border-box;
+}
+
+.heading {
+	height: 30px;
+	margin-top: 15px;
+	vertical-align: 0 auto;
+}
+
+.left {
+	float: left;
+	padding: 5px;
+	margin-left: 3px;
+
+}
+
+.logo {
+	background-image: url("/home/asalmon9989/website-projects/the_odin_project/google-homepage/images/grid_icon.png");
+	margin: 0 10px;
+	width: 30px;
+	height: 30px;
+}
+
+.right {
+	padding: 5px;
+	float: right;
+}
+
+.plain {
+	font-family: Arial, sans-serif;
+	text-decoration: none;
+	color: rgba(0, 0, 0, .75);
+	font-size: 13px;
+}
+
+.plain:hover {
+	text-decoration: underline;
+}
+
+.signin {
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	margin-right: 10px;
+	width: 80px;
+	height: 30px;
+	color: white;
+	background: -moz-linear-gradient(top,#4387fd,#4683ea);
+	background: linear-gradient(top,#4387fd,#4683ea);
+	text-decoration: none;
+}
+
+
+
+.main-logo {
+	margin: auto;
+	padding-top: 120px;
+	width: 450px;
+	height: 300px;
+}
+
+.color-logo {
+	display: block;
+	margin: 0 auto;
+}
+
+#search_bar {
+	border-radius: 5px;
+	margin-top: 15px;
+	width: 100%;
+	box-shadow: 2px 0px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+.sub {
+	width: 300px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.foot {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 35px;
+	background-color: rgba(0, 0, 0, .15);
+	margin-top: 300px;
+}
